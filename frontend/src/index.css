@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg: #0A0A0B;
+    --bg-2: #141416;
+    --border: #232326;
+    --t-1: #FFFFFF;
+    --t-2: #A1A1AA;
+    --t-3: #52525B;
+    --cy: #00F0FF;
+    --ma: #FF00FF;
+    --go: #FFD700;
+    --gr: #00FF94;
+    --rd: #FF4D4D;
+  }
+
+  body {
+    @apply bg-bg text-t-1 font-body antialiased selection:bg-cy/30 selection:text-white;
+  }
+}
+
+@layer components {
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Custom animations */
+@keyframes pulse-dot {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.5); opacity: 0.5; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.animate-pulse-dot {
+  animation: pulse-dot 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
