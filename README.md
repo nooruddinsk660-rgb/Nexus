@@ -321,7 +321,7 @@ Git             # https://git-scm.com
 
 ```bash
 # 1. Clone
-git clone https://github.com/nooruddinsk660-rgb/nexus.git
+git clone https://github.com/nooruddinsk660-rgb/Nexus
 cd nexus
 
 # 2. Install everything
@@ -857,5 +857,6 @@ copies or substantial portions of the Software.
 
 `NEXUS · v1.0.0 · MIT · Offline · Open Source`
 
-</div>#   N e x u s  
+</div>#   N e x u s 
+ 
  
