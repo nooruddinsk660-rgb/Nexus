@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 <br/>
 
@@ -321,8 +321,8 @@ Git             # https://git-scm.com
 
 ```bash
 # 1. Clone
-git clone https://github.com/nooruddinsk660-rgb/Nexus
-cd nexus
+git clone https://github.com/nooruddinsk660-rgb/Nexus.git
+cd Nexus
 
 # 2. Install everything
 make install
@@ -423,7 +423,7 @@ Every answer has clickable citation chips:
 ## ✦ Project Structure
 
 ```
-nexus/
+Nexus/
 │
 ├── backend/                    # Python FastAPI backend
 │   ├── main.py                 # App entry point + lifespan hooks
@@ -857,6 +857,4 @@ copies or substantial portions of the Software.
 
 `NEXUS · v1.0.0 · MIT · Offline · Open Source`
 
-</div>#   N e x u s 
- 
- 
+</div>
